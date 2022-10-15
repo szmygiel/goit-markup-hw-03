@@ -421,6 +421,16 @@ background-color: white;
   margin: 0 auto;
  }
 
+figure {
+margin: 0px;
+padding: 0px;  
+}
+
+.team-pictures {
+display: flex;
+justify-content: space-between;
+}
+
 .figcaption-main-page {
   font-size: 16px;
   font-weight: 400;
