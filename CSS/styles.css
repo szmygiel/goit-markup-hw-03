@@ -129,7 +129,6 @@ background-color: #F5F4FA;
   text-decoration: none;
   margin-top: 24px;
   margin-bottom: 25px;
-  /* margin: 24px 97px 25px 215px */
 }
 
 .logo-part {
@@ -154,13 +153,10 @@ background-color: #F5F4FA;
 box-sizing: border-box;
 width: 1200px;
 margin: 0px auto; 
- text-align: center;
- margin-bottom: 0px;
- 
-
+text-align: center;
+margin-bottom: 0px;
 }
 
-  /* jak wywalam border to się wszystko rozjerzdża */
 .section-main-title {
   background-color: var(--header-footer-color);
   text-align: center;
@@ -194,9 +190,7 @@ margin: 0px auto;
   Height: 50px;
   Font-size: 16px;
   cursor: pointer;
-  /* display: block; */
   margin: 0 auto;
-  /* align-content:center; */
   border-radius: 4px;
   padding: 10px 41px;
   margin-top: 0px;
@@ -244,7 +238,6 @@ section {
   width: 1600px;
   margin: 0 auto;
   padding: 94px;
-
 }
 
 .p-container {
@@ -391,8 +384,6 @@ line-height: 31px;
 letter-spacing: 0.03em;
 text-align: left;
 text-decoration: none;
-
-
 }
 
 address {
@@ -483,8 +474,7 @@ margin-right: 8px;
 .buttons-portfolio {
  background-color: #F5F4FA;
   color: var(--main-font-color);
-   font-family: "Roboto", sans-serif;
-  /* text-align: center; */
+   font-family: "Roboto" sans-serif;
   text-decoration: none;
   border-style: none;
   Height: 50px;
