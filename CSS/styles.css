@@ -1,7 +1,3 @@
-
-/*__________________________________________ MY CODE STARTS HERE_________________________________________ */
-
-
 :root {
   --outside-background-color: #e5e5e5;
   --header-footer-color: #212121;
@@ -39,8 +35,7 @@ padding-right: 15px;
 border-bottom: 1px solid #ececec;
 }
 
-
-.content-1 {
+.content-logo {
 display: inline-block;
 margin: 0px;
 margin-bottom: 0px;
@@ -50,22 +45,22 @@ margin-right: 0px;
 
 }
 
-.content-2 {
+.content-menu {
 display: inline-block;
 margin: 0px;
 box-sizing: border-box;
 height: 80px;
 padding: 0px;
-margin-right: 150px;
+margin-right: 115;
 }
 
-.content-3 {
+.content-contacts {
 display: inline-block;
 margin: 0px;
 box-sizing: border-box;
 height: 80px;
 padding: 0px;
-
+margin-left: 140px;
 }
 
 .menu {
@@ -86,9 +81,6 @@ margin-left: 93px;
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-
-/* !!!!!! przesunąć content-3 <div> do końca containera, wyrównać marginesy dla e-mail i tel !!!!! EUREKA -da się przesunąć DIVY marginesami pomiędzy */
-1178 -702.7 - 200 -15= 260,3
 
 .link-contacts {
   color:var(--secondary-font-color);
@@ -114,6 +106,7 @@ margin-right: 50px;
 }
 
 .link-tel {
+margin-left: 0px;
 margin-right: 0px;
 }
 
