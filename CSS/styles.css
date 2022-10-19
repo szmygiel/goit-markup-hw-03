@@ -10,7 +10,6 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--outside-background-color);
-  width: 1600px;
   margin: 0 auto;
 }
 /* ____________HEADER - top-bar/menu_____________ */
@@ -25,7 +24,7 @@ border-bottom: 1px solid #ececec;
 .container {
 display: flex; 
 box-sizing: border-box;
-width: 1200px;
+max-width: 1200px;
 height: 80px;
 margin: 0px auto;
 margin-top: 0px;
@@ -33,6 +32,7 @@ margin-bottom: 0px;
 padding-left: 15px;
 padding-right: 15px;
 border-bottom: 1px solid #ececec;
+background-color: var(--page-color);
 }
 
 .content-logo {
@@ -110,10 +110,6 @@ margin-left: 0px;
 margin-right: 0px;
 }
 
-.container {
-background-color: var(--page-color);
- } 
-
 .section-team {
 background-color: #F5F4FA;
 }
@@ -151,7 +147,7 @@ background-color: #F5F4FA;
  
 .container-main-title {
 box-sizing: border-box;
-width: 1200px;
+max-width: 1200px;
 margin: 0px auto; 
 text-align: center;
 margin-bottom: 0px;
@@ -205,7 +201,6 @@ margin-bottom: 0px;
 /* _______Section LOREM IPSU with paragraphs____________ */
 
 .p-section {
-  width: 1600px;
   background-color: white;
   margin: 0 auto;
   padding-top: 94px;
@@ -235,14 +230,13 @@ letter-spacing: 0.03em;
 }
 
 section {
-  width: 1600px;
   margin: 0 auto;
   padding: 94px;
 }
 
 .p-container {
   display: flex;
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   justify-content: space-between;
   
@@ -275,7 +269,7 @@ background-color: white;
 }
 
  .container-what-we-do {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
  }
 
@@ -293,7 +287,7 @@ background-color: #F5F4FA;
 }
 
  .container-our-team {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
  }
 
@@ -345,7 +339,6 @@ justify-content: space-between;
 
 
 .section-footer{
-width: 1600px;
 height: 252px;
 background-color: var(--header-footer-color);
 padding: 0px;
@@ -414,7 +407,7 @@ padding-top: 0px;
 }
 
  .container-portfolio-pictures {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
  }
 
