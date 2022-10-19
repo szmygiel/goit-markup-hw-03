@@ -1,5 +1,4 @@
 :root {
-  --outside-background-color: #e5e5e5;
   --header-footer-color: #212121;
   --page-color: white;
   --interactive-elements-color: #2196f3;
@@ -9,7 +8,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: var(--outside-background-color);
+  background-color: white;
   margin: 0 auto;
 }
 /* ____________HEADER - top-bar/menu_____________ */
@@ -448,6 +447,7 @@ letter-spacing: 0.03em;
   line-height: 36px;
   letter-spacing: 0.06em;
   text-align: left;
+  margin-bottom: 4px;
   color: var(--main-font-color);
 }
 
