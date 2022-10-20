@@ -274,7 +274,8 @@ background-color: white;
 
 .pictures {
 display: flex;
-justify-content: space-between;
+justify-content: center;
+gap: 30px;
 }
 
 
@@ -291,12 +292,14 @@ background-color: #F5F4FA;
  }
 
 figure {
-  background-color: white;
+background-color: white;
 margin: 0px;
 padding: 0px;  
-border: 1px solid grey;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
 
 }
+
 
 .frames {
   padding-bottom: 30px;
@@ -308,6 +311,7 @@ border: 1px solid grey;
   letter-spacing: 0.03em;
 
 
+
 }
 figcaption {
   margin-top: 30px;
@@ -316,7 +320,8 @@ figcaption {
 
 .team-pictures {
 display: flex;
-justify-content: space-between;
+justify-content: center;
+gap: 30px;
 }
 
 .figcaption-main-page {
@@ -380,6 +385,7 @@ text-decoration: none;
 
 address {
   margin-top: 20px;
+  font-style: normal;
 }
 
 .link-footer {
@@ -412,9 +418,15 @@ padding-top: 0px;
 
  .portfolio-pictures {
 display: flex;
-justify-content: space-between;
+justify-content: center;
+gap: 30px;
 flex-wrap: wrap;
 row-gap: 30px;
+}
+
+figure.portfolio-figure {
+  border: 1px solid #EEEEEE;
+  box-shadow: none;
 }
 
 .figcaption-portfolio {
@@ -426,6 +438,7 @@ text-align: left;
 color: var(--secondary-font-color);
 margin-top: 20px;
 margin-bottom: 4px;
+padding: 0px 24px;
 }
 
 .frames-portfolio {
